@@ -48,3 +48,18 @@ h2 {
 .bg {
   background-color: white;
 }
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  .item {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+
+    font-size: 35px;
+  }
+
+  .content {
+    width: 216px;
+    border: 2px solid black;
+  }
+}
