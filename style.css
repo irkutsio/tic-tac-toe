@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  margin: 100px 50px 50px 50px;
+}
+.content {
+  width: 456px;
+  border: 5px solid black;
+  margin: 0 auto;
+}
+.item {
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  display: inline-block;
+  font-size: 75px;
+  border: 1px solid black;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: background 0.1s;
+  user-select: none;
+}
+.item:hover {
+  background-color: #f1f1f10c;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+}
+li {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+}
+img {
+  width: 200px;
+  height: 150px;
+  display: block;
+}
+h2 {
+  padding: 0px;
+  margin: 0px;
+}
+.bg {
+  background-color: white;
+}
