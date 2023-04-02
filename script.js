@@ -43,7 +43,6 @@ function onClick(event) {
   if (result) {
     container.style.borderColor = "green";
     alert(`Winner: ${player}`);
-
     return;
   } else if (historyX.length + historyO.length === 9) {
     container.style.borderColor = "tomato";
@@ -58,3 +57,17 @@ function onClick(event) {
 function isWinner(arr) {
   return wins.some((item) => item.every((id) => arr.includes(id)));
 }
+
+// const btnEl = document.querySelector(".btn");
+// const countX = document.querySelector(".js-Xcount");
+// const countO = document.querySelector(".js-Ocount");
+
+// let Xcount = 0;
+// let Ocont = 0;
+
+// btnEl.addEventListener("click", onClick);
+
+// function onClick() {
+//   countX.textContent = Xcount;
+//   Xcount += 1;
+// }
